@@ -43,17 +43,6 @@ spring:
     hibernate:
       ddl-auto: update
 
-  application:
-    name: user-server
-
-server:
-  port: 8081
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://192.168.31.222:8761/eureka/
-
 feign:
  hystrix:
     enabled: true
