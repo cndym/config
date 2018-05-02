@@ -56,3 +56,10 @@ management:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
+
+spring:
+  rabbitmq:
+    host: 192.168.70.130
+    port: 5672
+    username: rabbitadmin
+    password: rabbitpwd
