@@ -48,6 +48,18 @@ spring:
     port: 5672
     username: rabbitadmin
     password: rabbitpwd
+    
+  redis:
+    host: 192.168.70.130
+    port: 6379
+    password: 552211
+    database: 0
+    jedis:
+      pool:
+        max-active: 10
+        max-idle: 5
+        max-wait: 1ms
+        min-idle: 0
 
 feign:
  hystrix:
