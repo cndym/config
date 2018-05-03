@@ -21,7 +21,7 @@ spring:
       time-between-eviction-runs-millis: 10000
       min-evictable-idle-time-millis: 30001
       async-close-connection-enable: true
-      aop-patterns: com.coinkm.* # Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
+      aop-patterns: com.coinkm.userServer.* # Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
       fail-fast: true
       filter:
         stat:
@@ -48,7 +48,7 @@ spring:
     port: 5672
     username: rabbitadmin
     password: rabbitpwd
-
+    
   redis:
     host: 192.168.70.130
     port: 6379
