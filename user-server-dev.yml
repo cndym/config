@@ -44,13 +44,13 @@ spring:
       ddl-auto: update
 
   rabbitmq:
-    host: 192.168.70.130
+    host: localhost
     port: 5672
     username: rabbitadmin
     password: rabbitpwd
     
   redis:
-    host: 192.168.70.130
+    host: localhost
     port: 6379
     password: 552211
     database: 0
